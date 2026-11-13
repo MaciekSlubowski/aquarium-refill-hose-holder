@@ -1,0 +1,15 @@
+# Slicer output
+*.gcode
+*.bgcode
+*.3mf
+
+# Full-size camera originals (resized copies: images/photo_*.jpg)
+images/2026*.jpg
+
+# Editor / OS files
+*.bak
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
