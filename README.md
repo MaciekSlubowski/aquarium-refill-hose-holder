@@ -21,6 +21,17 @@ The model is written in OpenSCAD and is fully parametric. Each part is a single 
 * **Exploded view:** the screw lifted out of its threaded hole and the extension pulled off the tunnel end.
 * **Parts:** the glass mount, the clamp screw and the outlet extension (shown on its own, with the 45 → 20 mm channel visible at the outlet).
 
+### In action
+
+<p align="center">
+  <a href="images/20261112_182633.mp4?raw=true"><img src="images/demo_refill.gif" height="420" alt="Holder on the aquarium glass, water flowing down from the outlet" /></a>
+  <a href="images/20261112_182649.mp4?raw=true"><img src="images/demo_closeup.gif" height="420" alt="Close-up of the holder with the hose connected and the clamp screw" /></a>
+</p>
+
+* **Left:** the holder on the aquarium glass during a refill. The outlet extension turns the stream down into the tank.
+* **Right:** close-up of the holder with the hose connected and the clamp screw in place.
+* Click an animation to download the original video.
+
 ### Printed prototype
 
 <p align="center">
@@ -30,7 +41,6 @@ The model is written in OpenSCAD and is fully parametric. Each part is a single 
 
 * **Left:** the three printed parts (outlet extension, glass mount, clamp screw).
 * **Right:** the holder put together, with the clamp screw in the threaded hole and the outlet extension on the tunnel end.
-* **Videos:** [clip 1 (7 s)](images/20261112_182633.mp4) · [clip 2 (6 s)](images/20261112_182649.mp4)
 
 The prototype was printed from v1.0, before the lead-in chamfer was added to the screw hole.
 
@@ -140,7 +150,7 @@ The prototype was printed on a Creality Ender-3 sliced in Cura, at 240 °C nozzl
 * `assembly.scad` checks that the shared values match and that the screw is not too long for the tunnel
 * Hole and screw threads phase-locked to the seat plane, so the screw meshes with the hole in the assembly preview (before, the threads overlapped)
 * 45° lead-in chamfer at the top of the threaded hole
-* Photos and videos of the printed prototype
+* Photos, videos and animated previews of the printed prototype
 
 **v1.0** – First printed version
 * Refactored into a shared `config.scad` and reusable `lib/` modules, with English names and comments
